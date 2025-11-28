@@ -1,0 +1,8 @@
+.venv/
+backend/.venv/
+data/videos/
+data/images/
+*.mp4
+*.dll
+*.pyd
+*.exe
