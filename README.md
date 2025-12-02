@@ -44,14 +44,31 @@ A solução utiliza **inteligência artificial** para rastrear os robôs e ident
 
 # 🏗️ Arquitetura do Sistema
 
-┌────────────────────┐ HTTP ┌─────────────────────┐
-│ YOLOv8 Detector │ <───────────────> │ Frontend React │
-│ (Python + FastAPI) │ API / Stream │ (Placar + Cronômetro) │
-└────────────────────┘ └─────────────────────┘
-▲
-│ Processamento de vídeo
-▼
-Arquivo .mp4 ou câmera
+[ Fonte de Vídeo ]
+    • Arquivo .mp4 gravado
+    • Ou câmera ao vivo (webcam)
+
+          │ (frames brutos)
+          ▼
+[ Backend • Python + FastAPI ]
+    • Captura de vídeo (OpenCV)
+    • Detector YOLOv8 (robô azul / robô vermelho)
+    • Cálculo de distância e detecção de HIT
+    • Geração de overlay (caixas e labels)
+    • API HTTP + stream de vídeo anotado
+
+          │ (JSON + stream de vídeo)
+          ▼
+[ Frontend • React ]
+    • Exibe o vídeo com as detecções
+    • Placar de hits (azul x vermelho)
+    • Cronômetro de 2 minutos (start/pause/reset)
+    • Controles da luta
+
+          │
+          ▼
+[ Usuário ]
+    • Árbitro visualiza, acompanha e valida a luta em tempo real
 
 # 🛠️ Tecnologias Utilizadas
 
