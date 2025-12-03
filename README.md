@@ -70,6 +70,32 @@ A solução utiliza **inteligência artificial** para rastrear os robôs e ident
 [ Usuário ]
     • Árbitro visualiza, acompanha e valida a luta em tempo real
 
+📊 Diagramas
+1️⃣ Diagrama de Casos de Uso
+
+Representa como o sistema interage com Piloto, Jurado e suas funções.
+
+<img width="514" height="456" alt="image" src="https://github.com/user-attachments/assets/26d640b3-01fa-4ccc-aca3-1508af60851f" />
+
+
+2️⃣ Diagrama de Contexto C4
+
+Visão geral do sistema e como usuários interagem com ele.
+
+![Diagrama de Contexto C4](docs/context-c4.png)
+
+3️⃣ Diagrama de Contêineres C4
+
+Visão macro dos principais módulos do sistema.
+
+![Diagrama de Contêineres C4](docs/containers-c4.png)
+
+4️⃣ Diagrama de Componentes C4
+
+Mostra os componentes internos do backend de processamento.
+
+![Diagrama de Componentes C4](docs/components-c4.png)
+
 # 🛠️ Tecnologias Utilizadas
 
 ### **Backend**
