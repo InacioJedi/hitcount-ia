@@ -82,19 +82,22 @@ Representa como o sistema interage com Piloto, Jurado e suas funções.
 
 Visão geral do sistema e como usuários interagem com ele.
 
-![Diagrama de Contexto C4](docs/context-c4.png)
+<img width="694" height="719" alt="image" src="https://github.com/user-attachments/assets/10117450-2bcd-423d-bcc8-ecbc29e6afed" />
+
 
 3️⃣ Diagrama de Contêineres C4
 
 Visão macro dos principais módulos do sistema.
 
-![Diagrama de Contêineres C4](docs/containers-c4.png)
+<img width="669" height="964" alt="image" src="https://github.com/user-attachments/assets/10fd9ec5-f33c-47f4-80bf-a9542b48d3fd" />
+
 
 4️⃣ Diagrama de Componentes C4
 
 Mostra os componentes internos do backend de processamento.
 
-![Diagrama de Componentes C4](docs/components-c4.png)
+<img width="416" height="972" alt="image" src="https://github.com/user-attachments/assets/96493a02-8fd0-4705-b49e-8ec99aa99ff9" />
+
 
 # 🛠️ Tecnologias Utilizadas
 
